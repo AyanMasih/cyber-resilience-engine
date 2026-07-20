@@ -1,0 +1,10 @@
+entity_id,entity_type,day,failed_login_count,login_count,off_hours_ratio,bytes_out,bytes_in,unique_dst_count,new_process_count,privilege_change_count,ot_write_command_count,session_duration_std
+host-01,workstation,2026-03-01,1,10,0.1,5000,12000,3,2,0,0,15.2
+host-01,workstation,2026-03-02,0,8,0.05,4800,11000,2,1,0,0,12.0
+host-01,workstation,2026-03-03,28,45,0.85,950000,1500,22,14,3,0,145.0
+plc-ot-99,ics_device,2026-03-01,0,2,0.0,200,500,1,0,0,2,5.0
+plc-ot-99,ics_device,2026-03-02,0,1,0.0,220,480,1,0,0,1,4.5
+plc-ot-99,ics_device,2026-03-03,12,18,0.9,1500,800,5,2,1,48,88.4
+user-admin,user,2026-03-01,0,5,0.2,1200,3000,4,1,0,0,25.0
+user-admin,user,2026-03-02,0,4,0.1,1100,2900,3,1,0,0,22.0
+user-admin,user,2026-03-03,15,30,0.7,50000,1200,12,8,2,0,95.0
